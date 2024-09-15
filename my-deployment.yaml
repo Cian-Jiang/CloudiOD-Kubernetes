@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: object-detection-app
+  namespace: ass1
+  labels:
+    app: object-detection-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: object-detection-app
+  template:
+    metadata:
+      labels:
+        app: object-detection-app
+    spec:
+      containers:
+      - name: object-detection
+        image: cian179/object-detection-app:3.0
+        ports:
+        - containerPort: 5000
+        resources:
+          limits:
+            cpu: 0.5
+            memory: 512Mi
+          requests:
+            cpu: 0.5
+            memory: 512Mi
