@@ -61,11 +61,10 @@ Through the analysis above, we can see that increasing the number of pods and cl
 In conclusion, this report has shed light on the factors influencing the performance of a distributed computing system deployed on a Kubernetes cluster for an object detection web service. The experimental results demonstrate the positive impact of increasing the number of pods and client threads on system performance, while also highlighting the need for careful consideration of network latency, system overhead, and potential issues related to concurrency and resource allocation. By understanding these factors and balancing them effectively, we can optimize their distributed
 
 ## Future Improvements
-
-  Implement HTTPS for secure image data transmission
-  Develop a standardized API for easier integration of the AI service
-  Optimize the system for the latest versions of Docker and Kubernetes
-  Explore using more recent versions of YOLO for improved detection accuracy
+- Implement HTTPS for secure image data transmission
+- Develop a standardized API for easier integration of the AI service
+- Optimize the system for the latest versions of Docker and Kubernetes
+- Explore using more recent versions of YOLO for improved detection accuracy
 
 
 
