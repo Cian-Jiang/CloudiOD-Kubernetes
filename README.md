@@ -37,12 +37,13 @@ The experimental results are presented in the form of two two-dimensional line c
 
 
 Local Client Results
+
 ![image](https://github.com/user-attachments/assets/8e4bd779-7876-42b6-b804-4ed84566111e)
 Figure 1: Relationship between average response time and number of pods (different thread counts, local client)
 
 
- 
 Nectar Client Results
+
 ![image](https://github.com/user-attachments/assets/36d8db30-91b6-450a-9f89-5518d8c67303)
 Figure 2: Relationship between average response time and number of pods (different thread counts, Nectar client)
 
